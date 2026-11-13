@@ -202,16 +202,16 @@ func _spawn_boss() -> void:
 
 
 func _draw() -> void:
-	var size := get_viewport_rect().size
-	var ground_y := size.y - 112.0
-	draw_rect(Rect2(Vector2.ZERO, size), BG)
+	var viewport_size := get_viewport_rect().size
+	var ground_y := viewport_size.y - 112.0
+	draw_rect(Rect2(Vector2.ZERO, viewport_size), BG)
 	# Distant ruined skyline
 	for i in range(8):
-		var bx := float(i) * size.x / 7.0
+		var bx := float(i) * viewport_size.x / 7.0
 		var bh := 70.0 + float((i * 37) % 95)
 		draw_rect(Rect2(Vector2(bx, ground_y - bh - 22.0), Vector2(52, bh)), Color("#20272c"))
 		draw_rect(Rect2(Vector2(bx + 10, ground_y - bh - 12.0), Vector2(7, 5)), Color("#7d6549"))
-	draw_rect(Rect2(Vector2(0, ground_y), Vector2(size.x, size.y - ground_y)), GROUND)
+	draw_rect(Rect2(Vector2(0, ground_y), Vector2(viewport_size.x, viewport_size.y - ground_y)), GROUND)
 	draw_line(Vector2(0, ground_y), Vector2(size.x, ground_y), ACCENT, 3.0)
 
 	# Player placeholder silhouette
