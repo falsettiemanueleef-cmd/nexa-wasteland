@@ -1,0 +1,10 @@
+; Godot project configuration
+config_version=5
+
+[application]
+config/name="NEXA: WASTELAND"
+run/main_scene="res://scenes/main.tscn"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
