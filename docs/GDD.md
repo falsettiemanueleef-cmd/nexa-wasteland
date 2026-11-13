@@ -1,6 +1,6 @@
 # NEXA: WASTELAND — Game Design Document
 
-**Version:** 0.2  
+**Version:** 0.3  
 **Status:** Updated design baseline — side-scrolling Action RPG  
 **Platform:** Android first  
 **Engine:** Godot 4 / GDScript / Compatibility renderer
@@ -15,10 +15,12 @@ NEXA: WASTELAND combines:
 - Automatic basic attacks combined with manual combos and active abilities.
 - A bunker hub and resource-management layer.
 - A long-term campaign target of 100 distinct worlds.
+- Character-class advancement through milestone quests.
+- An optional premium roster of five Divine-class heroes.
 
 ## 2. Core player fantasy
 
-Become a wasteland survivor whose fighting style visibly evolves. The weapon in the character's hands changes the moveset; equipped armor and gear change the character's appearance; class abilities create distinct combat identities. Every expedition should provide a reason to improve the hero and push into the next level.
+Become a wasteland survivor whose fighting style visibly evolves. The weapon in the character's hands changes the moveset; equipped armor and gear change the character's appearance; class abilities create distinct combat identities. The journey begins as an Adventurer and advances through milestone quests. Every expedition should provide a reason to improve the hero and push into the next level.
 
 ## 3. Campaign structure
 
@@ -37,9 +39,10 @@ Potential themes include ruined outskirts, overgrown suburbs, collapsed megaciti
 
 ## 4. Characters and classes
 
-The full game has **five distinct classes**. Each class can be selected in a masculine or feminine presentation. The two presentations must preserve the class identity while providing distinct character models/silhouettes and appropriate animations.
+### Base roster: five classes
+The full base game has **five distinct classes**. Each class can be selected in a masculine or feminine presentation. The two presentations must preserve the class identity while providing distinct character models/silhouettes and appropriate animations.
 
-Each class has:
+Each base class has:
 - A recognizable silhouette, outfit language and animation identity.
 - Class-specific base statistics and combat role.
 - Exclusive active abilities.
@@ -55,6 +58,22 @@ The initial class archetypes carried forward from the original design are:
 5. Sniper — precision-focused ranged specialist.
 
 Exact names, visual designs, statistics, ability lists and weapon compatibility matrices remain to be designed and balanced. Weapon compatibility must make thematic and mechanical sense; not every class needs to equip every weapon family.
+
+### Class progression and advancement quests
+- Every base-class character begins at the initial rank **Adventurer**.
+- Class advancement is tied to milestone quests in the campaign.
+- A class-advancement quest becomes available at every **10-world milestone**: after worlds 10, 20, 30, and so on.
+- The intended campaign cadence is one advancement quest per ten worlds. The exact unlock timing, quest objectives, rewards, subsequent rank names and number of ranks remain to be defined.
+- Completing an advancement quest promotes the character along their class path and can unlock new class features, skills or visual distinctions.
+- The rank sequence beyond Adventurer is deliberately undecided and will be designed later.
+
+### Premium roster: five Divine-class heroes
+In addition to the five base classes, the game plans **five additional heroes of Divine class**.
+- These five Divine heroes are separate playable characters, not merely advancement ranks for the base classes.
+- They are intended to be unlocked through paid access.
+- Masculine and feminine presentation options are planned for each playable hero, consistent with the character-selection direction.
+- Their names, appearance, lore, combat roles, exclusive abilities, weapon compatibility, prices and purchase method are not yet defined.
+- Their gameplay balance must be designed carefully so that paid access does not make the base roster or normal campaign progression unfair or obsolete. The exact commercial and balance model remains an open design task.
 
 ### Character progression
 Character systems may include level, experience, health, attack, defense, speed, critical chance, abilities, equipment and class-specific attributes. Skill upgrades should create meaningful choices rather than only increasing numbers.
@@ -124,7 +143,8 @@ Bosses appear at levels 5 and 10 in every world. Each boss should have a recogni
 5. Explore, move, fight and use combos/abilities.
 6. Defeat enemies and collect resources or loot.
 7. Defeat the level boss when reaching level 5 or 10.
-8. Return with rewards, improve the survivor and unlock further content.
+8. Complete class-advancement quests at ten-world milestones when available.
+9. Return with rewards, improve the survivor and unlock further content.
 
 ## 8. Bunker and resources
 
@@ -179,17 +199,20 @@ Performance targets and final screen resolution must be validated on the target 
 ## 12. Monetization and online features
 
 Potential future options:
+- Paid unlocks for the five additional Divine-class heroes.
 - Optional rewarded ads.
 - Cosmetic items.
 - Narrative or world expansions.
 
-No pay-to-win design. Online accounts, cloud saves, leaderboards, events, multiplayer, chat, clans, PvP, stores, payments, ads and complex backend systems are outside the first playable milestone.
+The Divine heroes are a planned premium character offering. Their pricing, purchase flow, platform-store integration and balance remain undecided. They should not invalidate the five base classes or create an unfair progression wall. No pay-to-win design is intended.
+
+Online accounts, cloud saves, leaderboards, events, multiplayer, chat, clans, PvP, stores, payments, ads and complex backend systems are outside the first playable milestone. Paid hero unlocks are a future full-game feature, not part of the first prototype.
 
 ## 13. First playable milestone (vertical slice)
 
 The first milestone is deliberately much smaller than the full-game vision:
 - One side-scrolling environment.
-- One playable class, with masculine and feminine presentation if the art pipeline allows it.
+- One playable base class, beginning as Adventurer, with masculine and feminine presentation if the art pipeline allows it.
 - One weapon family with a complete 3-hit or 5-hit moveset.
 - Automatic basic attacks.
 - Manual combo input.
@@ -216,4 +239,4 @@ The next milestone can add a second weapon family, additional enemies, visible e
 
 ## 15. Development rule
 
-The 100-world campaign is the long-term ambition. Do not attempt to build 1,000 levels or all five complete classes before validating the core combat. First deliver one polished vertical slice; then expand the combat framework, character roster, gear system and world pipeline in measurable stages.
+The 100-world campaign, class-advancement quest chain and five Divine heroes are long-term ambitions. Do not attempt to build all campaign content or every character before validating the core combat. First deliver one polished vertical slice; then expand the combat framework, character roster, gear system, class progression and world pipeline in measurable stages.
