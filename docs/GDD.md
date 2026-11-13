@@ -75,7 +75,11 @@ In addition to the five base classes, the game plans **five additional heroes of
 - Each Divine hero has a highly distinctive, visually spectacular appearance, signature effects and a **unique exclusive moveset** that sets the character apart from every base class and the other Divine heroes.
 - Each Divine hero has their own signature weapon, designed as an integral part of that hero's identity and moveset. The weapon's visual design is fixed: it **cannot be replaced or visually transformed into another weapon**.
 - A Divine weapon can still be upgraded through rarity tiers. Rarity progression may improve its power and add controlled refinement to effects or materials, but it must preserve the weapon's recognizable original design and silhouette.
-- The player's campaign/progression is retained when switching to or selecting a different hero; choosing a Divine hero must not force the player to restart campaign progress. The exact scope of shared progression (such as level, resources, equipment and skill unlocks) will be specified in the progression-system design.
+- The player's **hero level** and **available unspent skill points** are account-wide/shared progression values: they carry over when switching between heroes, including when unlocking a Divine hero.
+- Every playable character has their **own character-specific skill tree**. Shared available skill points can be allocated in the currently selected character's unique tree; unlocked nodes and allocated points remain associated with that character and do not automatically unlock the same skills on other heroes.
+- Core currencies and progression resources are shared across the roster, including **coins** and **diamonds**. Diamonds are obtainable in **small quantities through gameplay/farming**; additional diamonds are intended to be purchasable. The exact earn rates, prices and purchase limits remain to be balanced.
+- Equipment progression is shared: the player's equipment inventory and **equipment rarity progression** are retained when changing heroes. Character-specific signature weapons remain bound to their Divine hero; their rarity can increase while their defining appearance remains fixed.
+- Switching heroes therefore changes the playable character, its unique skill tree and combat identity, but does not reset the shared hero level, unspent skill-point pool, currencies or equipment rarity progress.
 - These five heroes are intended to be unlocked through paid access. Prices, purchase method and platform-store integration remain to be defined.
 - Their higher base power is deliberate. Overall encounter and progression tuning must account for the Divine roster while keeping the five base classes viable and enjoyable; Divine heroes are premium, stronger alternatives, not cosmetic-only variants.
 
@@ -208,7 +212,7 @@ Potential future options:
 - Cosmetic items.
 - Narrative or world expansions.
 
-The five Divine heroes are a planned premium character offering with intentionally higher base statistics, fixed divine identities, spectacular visual designs, unique movesets and signature weapons. Their prices, purchase flow, platform-store integration and detailed progression balance remain undecided. The base classes must remain viable, while the premium heroes are clearly stronger alternatives.
+The five Divine heroes are a planned premium character offering with intentionally higher base statistics, fixed divine identities, spectacular visual designs, unique movesets and signature weapons. Hero level, unspent skill points, currencies and equipment rarity progression are shared across the roster, while each character retains its own skill tree and allocated build. Diamonds can be earned in small quantities through gameplay and additional amounts are intended to be purchasable. Prices, purchase flow, platform-store integration and detailed progression balance remain undecided. The base classes must remain viable, while the premium heroes are clearly stronger alternatives.
 
 Online accounts, cloud saves, leaderboards, events, multiplayer, chat, clans, PvP, stores, payments, ads and complex backend systems are outside the first playable milestone. Paid hero unlocks are a future full-game feature, not part of the first prototype.
 
