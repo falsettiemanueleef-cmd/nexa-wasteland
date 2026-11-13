@@ -39,6 +39,8 @@ The game also includes a long-term Tower of Challenges running in parallel with 
 - The tower is designed to be extendable beyond floor 1,000, allowing effectively endless progression without changing the campaign's initial 1,000-stage structure.
 - Access to the first tower floor requires a minimum character level or promotion rank; the exact entry requirement remains to be defined.
 - Promotion rank gates access to successive 100-floor sections: a higher promotion rank is required to enter each next block of 100 floors. The exact rank names and unlock requirements remain to be defined.
+- The tower is expandable through future content updates. A planned expansion can add **100 further worlds**, each with 10 stages, and therefore **1,000 additional tower floors**; later expansions can continue extending both structures.
+- Expansion updates may also introduce new promotion ranks and additional Divine-class heroes. The number, identities and exact release cadence of those heroes remain to be designed.
 - The tower is a parallel progression mode, not a replacement for the campaign. Its difficulty and reward curve must be balanced independently while remaining relevant to campaign and character progression.
 
 The 100-world structure is the content vision, not the first production milestone. Worlds will be produced in themed batches using reusable environment and encounter systems while preserving a distinct identity for each world.
@@ -91,6 +93,13 @@ In addition to the five base classes, the game plans **five additional heroes of
 - Switching heroes therefore changes the playable character, its unique skill tree and combat identity, but does not reset the shared hero level, unspent skill-point pool, currencies or equipment rarity progress.
 - These five heroes are intended to be unlocked through paid access. Prices, purchase method and platform-store integration remain to be defined.
 - Their higher base power is deliberate. Overall encounter and progression tuning must account for the Divine roster while keeping the five base classes viable and enjoyable; Divine heroes are premium, stronger alternatives, not cosmetic-only variants.
+
+### Account character slots and independent runs
+- Each account has one main character slot and **five additional empty character slots** available for creating or trying other characters.
+- The main character's campaign progress and save remain attached to the main slot. Creating or starting a character in another slot must not reset, overwrite or transfer the main character's progress.
+- A character created in an empty slot starts a **new progression run from zero**, with its own campaign progress. Each slot maintains its own character/run save.
+- This is different from switching between heroes within an already established roster/run: the previously defined shared hero progression and roster-switching rules apply within that run. Starting a fresh character in another slot is an independent beginning.
+- The exact handling of account-level currencies, purchases and any shared entitlements across separate slots remains to be specified.
 
 ### Character progression
 Character systems may include level, experience, health, attack, defense, speed, critical chance, abilities, equipment and class-specific attributes. Skill upgrades should create meaningful choices rather than only increasing numbers.
