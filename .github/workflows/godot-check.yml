@@ -1,0 +1,27 @@
+name: Godot validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Godot 4.7.2
+        uses: chickensoft/setup-godot@v2
+        with:
+          version: 4.7.2
+          use-dotnet: false
+
+      - name: Import and parse project
+        run: godot --headless --path . --editor --quit
+
+      - name: Run prototype headlessly
+        run: godot --headless --path . --quit-after 180
