@@ -46,7 +46,6 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	elapsed += delta
 	var width := get_viewport_rect().size.x
-	var ground_y := get_viewport_rect().size.y - 112.0
 
 	if move_left:
 		player_x -= 260.0 * delta
