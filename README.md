@@ -25,7 +25,7 @@ After **The Collapse**, the player reactivates the abandoned NEXA-01 bunker and 
 - Parallel Tower of Challenges: one floor per campaign stage, 1,000 initial floors and extendable beyond that
 - Tower rewards improve with floor progression; every 100-floor block requires a higher promotion rank to enter (exact rank names and first-entry requirement TBD)
 - Future expansions can add 100 worlds (1,000 stages) and 1,000 matching tower floors at a time, plus new promotion ranks and additional Divine heroes
-- Each account has one main character slot plus five empty alternate slots; every slot is fully independent, starts from zero and has no transfer or sharing of any kind (progress, currencies, items, equipment, unlocks or purchases)
+- Each account has one main character slot plus five empty alternate slots; every slot starts from zero and is independent, with no transfer of progress, currencies, items, equipment or unlocks. **Exception: the season pass or monthly pass is account-linked and available across all slots**
 - Bunker hub, equipment, skills, resources and incremental progression
 - Godot 4, GDScript, Compatibility renderer
 
