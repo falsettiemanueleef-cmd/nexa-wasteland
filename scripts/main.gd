@@ -23,6 +23,7 @@ var enemy_defeated := false
 var move_left := false
 var move_right := false
 var auto_attack_timer := 0.0
+var enemy_attack_timer := 0.0
 var combo_timer := 0.0
 var combo_step := 0
 var special_cooldown := 0.0
@@ -54,6 +55,7 @@ func _process(delta: float) -> void:
 	player_x = clampf(player_x, 48.0, width - 48.0)
 
 	auto_attack_timer = maxf(0.0, auto_attack_timer - delta)
+	enemy_attack_timer = maxf(0.0, enemy_attack_timer - delta)
 	combo_timer = maxf(0.0, combo_timer - delta)
 	special_cooldown = maxf(0.0, special_cooldown - delta)
 
@@ -63,6 +65,14 @@ func _process(delta: float) -> void:
 
 	if enemy_defeated and not enemy_is_boss:
 		_spawn_boss()
+
+	if not enemy_defeated and absf(enemy_x - player_x) <= 105.0 and enemy_attack_timer <= 0.0:
+		var incoming_damage := 14.0 if enemy_is_boss else 6.0
+		player_hp = maxf(0.0, player_hp - incoming_damage)
+		message = "Hai subito " + str(int(incoming_damage)) + " danni!"
+		enemy_attack_timer = 1.8 if enemy_is_boss else 2.4
+	if player_hp <= 0.0:
+		message = "SEI A TERRA: ricarica la scena per riprovare."
 
 	if enemy_defeated and enemy_is_boss:
 		message = "Boss sconfitto! Prototipo completato."
