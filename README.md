@@ -22,6 +22,8 @@ After **The Collapse**, the player reactivates the abandoned NEXA-01 bunker and 
 - Initial weapon families: swords, scythes, dual maces and dual blades
 - Equipment visibly changes the character's appearance
 - Long-term campaign target: 100 distinct worlds, 10 levels each (1,000 levels); bosses at levels 5 and 10
+- Parallel Tower of Challenges: one floor per campaign stage, 1,000 initial floors and extendable beyond that
+- Tower rewards improve with floor progression; every 100-floor block requires a higher promotion rank to enter (exact rank names and first-entry requirement TBD)
 - Bunker hub, equipment, skills, resources and incremental progression
 - Godot 4, GDScript, Compatibility renderer
 
