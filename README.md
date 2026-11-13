@@ -11,8 +11,11 @@ After **The Collapse**, the player reactivates the abandoned NEXA-01 bunker and 
 ## Core design
 - Side-scrolling 2D action RPG; Android first
 - Five base classes, each selectable in masculine or feminine presentation
-- Five additional premium Divine-class heroes, also planned with masculine/feminine presentation options
+- Five premium Divine heroes inspired by mythological deities and legendary warriors; each has a fixed identity, with no gender selection
 - All base-class progression begins at **Adventurer**; advancement quests occur at every 10-world milestone
+- Divine heroes have higher base stats, spectacular distinct appearances, exclusive movesets and fixed signature weapons
+- Divine signature weapons can gain rarity but never change their defining visual design
+- Campaign progress is retained when switching heroes; Divine heroes are paid unlocks
 - Hybrid combat: automatic basic attacks, manual weapon combos and active class abilities
 - Weapon-specific movesets and 3-hit or 5-hit combo chains
 - Initial weapon families: swords, scythes, dual maces and dual blades
@@ -30,7 +33,7 @@ Build one polished side-scrolling test area before expanding content:
 - Health, damage, rewards and a minimal equipment screen
 - Touch controls and local save
 
-The five base classes, five premium Divine heroes, class-advancement quest chain, all weapon families, visual equipment system and 100-world campaign are the full-game vision. They will be implemented in stages and validated on the target Android phone. Premium heroes are a planned paid unlock; their balance and commercial details remain to be designed.
+The five base classes, five premium Divine heroes, class-advancement quest chain, all weapon families, visual equipment system and 100-world campaign are the full-game vision. They will be implemented in stages and validated on the target Android phone. Divine heroes are paid unlocks with higher base stats and unique identities; campaign progress is retained when changing heroes. Pricing and detailed progression rules remain to be designed.
 
 ## Getting started
 Open this project in Godot 4 and run `scenes/main.tscn`.
