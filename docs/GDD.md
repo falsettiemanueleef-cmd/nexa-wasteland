@@ -32,6 +32,15 @@ Become a wasteland survivor whose fighting style visibly evolves. The weapon in 
 - The level-5 boss acts as a mid-world progression gate and reward milestone.
 - Each world introduces variations in enemy behavior, environmental threats, encounter composition and rewards.
 
+### Tower of Challenges
+The game also includes a long-term Tower of Challenges running in parallel with the main campaign.
+- The tower is structured to mirror campaign progression: **one tower floor for each campaign stage**. With 100 worlds and 10 stages per world, the initial full-game target is **1,000 floors**.
+- Each floor is a self-contained challenge with enemies and rewards. Completing floors grants rewards whose value and potential rarity increase as the player climbs.
+- The tower is designed to be extendable beyond floor 1,000, allowing effectively endless progression without changing the campaign's initial 1,000-stage structure.
+- Access to the first tower floor requires a minimum character level or promotion rank; the exact entry requirement remains to be defined.
+- Promotion rank gates access to successive 100-floor sections: a higher promotion rank is required to enter each next block of 100 floors. The exact rank names and unlock requirements remain to be defined.
+- The tower is a parallel progression mode, not a replacement for the campaign. Its difficulty and reward curve must be balanced independently while remaining relevant to campaign and character progression.
+
 The 100-world structure is the content vision, not the first production milestone. Worlds will be produced in themed batches using reusable environment and encounter systems while preserving a distinct identity for each world.
 
 ### World themes
