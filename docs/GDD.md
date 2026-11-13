@@ -69,11 +69,15 @@ Exact names, visual designs, statistics, ability lists and weapon compatibility 
 
 ### Premium roster: five Divine-class heroes
 In addition to the five base classes, the game plans **five additional heroes of Divine class**.
-- These five Divine heroes are separate playable characters, not merely advancement ranks for the base classes.
-- They are intended to be unlocked through paid access.
-- Masculine and feminine presentation options are planned for each playable hero, consistent with the character-selection direction.
-- Their names, appearance, lore, combat roles, exclusive abilities, weapon compatibility, prices and purchase method are not yet defined.
-- Their gameplay balance must be designed carefully so that paid access does not make the base roster or normal campaign progression unfair or obsolete. The exact commercial and balance model remains an open design task.
+- These are distinct, individually designed playable heroes inspired by mythological deities and legendary or historically famous warriors. Inspiration may be drawn from multiple mythologies and warrior traditions; the characters must still have original names, designs, lore and interpretations rather than being direct copies.
+- Each Divine hero has a fixed identity and presentation. **There is no masculine/feminine selection** for Divine heroes: each is a singular divine character.
+- Divine heroes have **higher base statistics** than the five Adventurer-origin base classes. Their superior starting attributes are an intentional premium-roster distinction.
+- Each Divine hero has a highly distinctive, visually spectacular appearance, signature effects and a **unique exclusive moveset** that sets the character apart from every base class and the other Divine heroes.
+- Each Divine hero has their own signature weapon, designed as an integral part of that hero's identity and moveset. The weapon's visual design is fixed: it **cannot be replaced or visually transformed into another weapon**.
+- A Divine weapon can still be upgraded through rarity tiers. Rarity progression may improve its power and add controlled refinement to effects or materials, but it must preserve the weapon's recognizable original design and silhouette.
+- The player's campaign/progression is retained when switching to or selecting a different hero; choosing a Divine hero must not force the player to restart campaign progress. The exact scope of shared progression (such as level, resources, equipment and skill unlocks) will be specified in the progression-system design.
+- These five heroes are intended to be unlocked through paid access. Prices, purchase method and platform-store integration remain to be defined.
+- Their higher base power is deliberate. Overall encounter and progression tuning must account for the Divine roster while keeping the five base classes viable and enjoyable; Divine heroes are premium, stronger alternatives, not cosmetic-only variants.
 
 ### Character progression
 Character systems may include level, experience, health, attack, defense, speed, critical chance, abilities, equipment and class-specific attributes. Skill upgrades should create meaningful choices rather than only increasing numbers.
@@ -204,7 +208,7 @@ Potential future options:
 - Cosmetic items.
 - Narrative or world expansions.
 
-The Divine heroes are a planned premium character offering. Their pricing, purchase flow, platform-store integration and balance remain undecided. They should not invalidate the five base classes or create an unfair progression wall. No pay-to-win design is intended.
+The five Divine heroes are a planned premium character offering with intentionally higher base statistics, fixed divine identities, spectacular visual designs, unique movesets and signature weapons. Their prices, purchase flow, platform-store integration and detailed progression balance remain undecided. The base classes must remain viable, while the premium heroes are clearly stronger alternatives.
 
 Online accounts, cloud saves, leaderboards, events, multiplayer, chat, clans, PvP, stores, payments, ads and complex backend systems are outside the first playable milestone. Paid hero unlocks are a future full-game feature, not part of the first prototype.
 
