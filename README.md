@@ -24,6 +24,8 @@ After **The Collapse**, the player reactivates the abandoned NEXA-01 bunker and 
 - Long-term campaign target: 100 distinct worlds, 10 levels each (1,000 levels); bosses at levels 5 and 10
 - Parallel Tower of Challenges: one floor per campaign stage, 1,000 initial floors and extendable beyond that
 - Tower rewards improve with floor progression; every 100-floor block requires a higher promotion rank to enter (exact rank names and first-entry requirement TBD)
+- Future expansions can add 100 worlds (1,000 stages) and 1,000 matching tower floors at a time, plus new promotion ranks and additional Divine heroes
+- Each account has one main character slot plus five empty alternate slots; every new slot starts from zero with independent progress, leaving the main save untouched
 - Bunker hub, equipment, skills, resources and incremental progression
 - Godot 4, GDScript, Compatibility renderer
 
