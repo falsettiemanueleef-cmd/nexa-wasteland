@@ -15,7 +15,8 @@ After **The Collapse**, the player reactivates the abandoned NEXA-01 bunker and 
 - All base-class progression begins at **Adventurer**; advancement quests occur at every 10-world milestone
 - Divine heroes have higher base stats, spectacular distinct appearances, exclusive movesets and fixed signature weapons
 - Divine signature weapons can gain rarity but never change their defining visual design
-- Campaign progress is retained when switching heroes; Divine heroes are paid unlocks
+- Hero level, unspent skill points, coins, diamonds and equipment rarity progression are shared across heroes; each character has its own skill tree and individual build
+- Diamonds are farmable in small quantities, with additional diamonds intended to be purchasable; Divine heroes are paid unlocks
 - Hybrid combat: automatic basic attacks, manual weapon combos and active class abilities
 - Weapon-specific movesets and 3-hit or 5-hit combo chains
 - Initial weapon families: swords, scythes, dual maces and dual blades
