@@ -1,0 +1,70 @@
+name: Extract Claude analysis archive
+
+on:
+  push:
+    paths:
+      - ".github/workflows/extract-claude-analysis.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract readable files from archive
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path, PurePosixPath
+          from zipfile import ZipFile
+          import shutil
+
+          archive = Path("research/legend-of-avatar/claude-analysis/LEGEND_OF_AVATAR_ANALYSIS.zip")
+          output = Path("research/legend-of-avatar/claude-analysis/extracted")
+          allowed = {".md", ".txt", ".csv", ".json", ".cs", ".py", ".xml", ".yaml", ".yml", ".log", ".tsv"}
+          if not archive.is_file():
+              raise SystemExit(f"Archivio non trovato: {archive}")
+          if output.exists():
+              shutil.rmtree(output)
+          output.mkdir(parents=True)
+
+          written = []
+          with ZipFile(archive) as z:
+              for item in z.infolist():
+                  if item.is_dir():
+                      continue
+                  rel = PurePosixPath(item.filename)
+                  if rel.is_absolute() or ".." in rel.parts:
+                      continue
+                  if rel.suffix.lower() not in allowed:
+                      continue
+                  target = output.joinpath(*rel.parts)
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(z.read(item))
+                  written.append(str(target))
+
+          print(f"Archivio: {archive.stat().st_size} byte")
+          print(f"File testuali estratti: {len(written)}")
+          for name in written:
+              print(name)
+          if not written:
+              raise SystemExit("Nessun file testuale compatibile trovato.")
+          PY
+
+      - name: Commit extracted documents
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research/legend-of-avatar/claude-analysis/extracted
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica da committare."
+          else
+            git commit -m "Extract Claude analysis documents"
+            git push
+          fi
