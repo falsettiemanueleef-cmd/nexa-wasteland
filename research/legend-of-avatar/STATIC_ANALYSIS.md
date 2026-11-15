@@ -24,6 +24,12 @@
 - Rechecked package paths: no ordinary `libil2cpp.so`, `GameAssembly.dll`, or `Assembly-CSharp.dll` was found in the inspected APK paths. The four `ATG_E*.sec` files are ELF shared objects and expose asset/decryption/AES-related functions.
 - Research found that the standard Perfare Il2CppDumper documents Unity support through 2022.2 and explicitly says deobfuscating protected metadata is outside its scope. AssetRipper's current documentation lists Unity support through 6000.4.x. A third-party Il2CppDumper fork claims APK ingestion and handling of some enveloped/simple-obfuscation formats; this is a tool claim, not a verified result on this sample.
 
+## Confirmed managed-code metadata sidecars
+- `assets/bin/Data/ScriptingAssemblies.json` is present and lists 200 managed assembly names, including `Assembly-CSharp.dll`, `Assembly-CSharp-firstpass.dll`, `P1.BossCheatDiagnostics.Core.dll`, and `P1.ReconnectAutoRecovery.Core.dll`.
+- `assets/bin/Data/RuntimeInitializeOnLoads.json` is present with 68 runtime-initialization records. Twenty records name `Assembly-CSharp` classes/methods. Verified examples include `P1Core.Network.NetworkManager._Initialize`, `P1.BattleVerificationTransport._ResetStaticState`, `P1.BattleVerificationDiagnostics._ResetStaticState`, and `P1.BattleVerificationRuntimeHost._ResetStaticState`.
+- These JSON sidecars expose selected assembly/type/method identifiers and startup registration metadata. They do **not** contain the implementation bodies and do not amount to recovered C# source.
+- Full index: [RUNTIME_INIT_INDEX.md](RUNTIME_INIT_INDEX.md).
+
 ## Not yet recovered
 - No original C# source files have been extracted.
 - No verified class/method map for the gameplay systems exists yet.
