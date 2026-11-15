@@ -19,6 +19,11 @@
 - The Unity bundle has a `UnityFS` signature and reports Unity version `6000.3.27f2`.
 - DEX inspection so far primarily surfaced Android/platform and advertising/analytics SDK references; no recovered game C# source has been established.
 
+## Additional APK inventory finding (2026-11-15)
+- The APK also contains `assets/libData.so` (2,179 bytes). Despite its extension, it is not an ELF shared object; it begins with bytes `50 4B 11 30`. Its format and purpose are not established.
+- Rechecked package paths: no ordinary `libil2cpp.so`, `GameAssembly.dll`, or `Assembly-CSharp.dll` was found in the inspected APK paths. The four `ATG_E*.sec` files are ELF shared objects and expose asset/decryption/AES-related functions.
+- Research found that the standard Perfare Il2CppDumper documents Unity support through 2022.2 and explicitly says deobfuscating protected metadata is outside its scope. AssetRipper's current documentation lists Unity support through 6000.4.x. A third-party Il2CppDumper fork claims APK ingestion and handling of some enveloped/simple-obfuscation formats; this is a tool claim, not a verified result on this sample.
+
 ## Not yet recovered
 - No original C# source files have been extracted.
 - No verified class/method map for the gameplay systems exists yet.
