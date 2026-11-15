@@ -1,0 +1,58 @@
+{
+ "header": {
+  "sig": "UnityFS",
+  "version": 8,
+  "unity": "5.x.x",
+  "revision": "6000.3.27f2",
+  "size": 61577906,
+  "cbi": 4476,
+  "ubi": 11184,
+  "flags": "0x243",
+  "filesize": 61577906
+ },
+ "nodes": [
+  {
+   "offset": 0,
+   "size": 505700,
+   "flags": 4,
+   "path": "globalgamemanagers"
+  },
+  {
+   "offset": 505700,
+   "size": 721908,
+   "flags": 4,
+   "path": "Resources/unity_builtin_extra"
+  },
+  {
+   "offset": 1227608,
+   "size": 2152336,
+   "flags": 4,
+   "path": "globalgamemanagers.assets"
+  },
+  {
+   "offset": 3379944,
+   "size": 44510992,
+   "flags": 4,
+   "path": "sharedassets0.assets"
+  },
+  {
+   "offset": 47890936,
+   "size": 4169408,
+   "flags": 0,
+   "path": "globalgamemanagers.assets.resS"
+  },
+  {
+   "offset": 52060344,
+   "size": 89856000,
+   "flags": 0,
+   "path": "sharedassets0.assets.resS"
+  },
+  {
+   "offset": 141916344,
+   "size": 420280,
+   "flags": 4,
+   "path": "level0"
+  }
+ ],
+ "blocks": 1086
+}

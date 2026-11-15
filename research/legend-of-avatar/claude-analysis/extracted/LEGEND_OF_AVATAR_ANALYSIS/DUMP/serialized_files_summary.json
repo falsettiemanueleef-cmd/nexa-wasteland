@@ -1,0 +1,98 @@
+{
+ "globalgamemanagers": {
+  "format_version": 22,
+  "unity": "6000.3.27f2",
+  "type_tree_present": false,
+  "object_count": 20,
+  "objects_by_class": {
+   "PlayerSettings": 1,
+   "class_13": 1,
+   "class_78": 1,
+   "class_11": 1,
+   "class_94": 1,
+   "class_116": 1,
+   "class_30": 1,
+   "class_5": 1,
+   "class_98": 1,
+   "class_55": 1,
+   "BuildSettings": 1,
+   "class_47": 1,
+   "ResourceManager": 1,
+   "class_126": 1,
+   "class_19": 1,
+   "class_300": 1,
+   "UnityConnectSettings": 1,
+   "class_1403656975": 1,
+   "class_937362698": 1,
+   "class_655991488": 1
+  }
+ },
+ "globalgamemanagers.assets": {
+  "format_version": 22,
+  "unity": "6000.3.27f2",
+  "type_tree_present": false,
+  "object_count": 6165,
+  "objects_by_class": {
+   "MonoScript": 6033,
+   "Texture2D": 48,
+   "Shader": 44,
+   "MonoBehaviour": 34,
+   "class_72": 2,
+   "PreloadData": 1,
+   "Material": 1,
+   "Sprite": 1,
+   "class_1740304944": 1
+  }
+ },
+ "sharedassets0.assets": {
+  "format_version": 22,
+  "unity": "6000.3.27f2",
+  "type_tree_present": false,
+  "object_count": 2115,
+  "objects_by_class": {
+   "Sprite": 2006,
+   "Texture2D": 48,
+   "Material": 18,
+   "MonoBehaviour": 17,
+   "Shader": 7,
+   "AnimationClip": 6,
+   "SpriteAtlas": 6,
+   "Font": 4,
+   "AnimatorController": 2,
+   "PreloadData": 1
+  }
+ },
+ "level0": {
+  "format_version": 22,
+  "unity": "6000.3.27f2",
+  "type_tree_present": false,
+  "object_count": 1333,
+  "objects_by_class": {
+   "MonoBehaviour": 414,
+   "GameObject": 315,
+   "RectTransform": 282,
+   "CanvasRenderer": 206,
+   "Transform": 33,
+   "ParticleSystem": 28,
+   "ParticleSystemRenderer": 28,
+   "CanvasGroup": 10,
+   "Canvas": 8,
+   "Animator": 2,
+   "Animation": 2,
+   "class_61": 1,
+   "class_81": 1,
+   "RenderSettings": 1,
+   "class_157": 1,
+   "class_196": 1
+  }
+ },
+ "Resources_unity_builtin_extra": {
+  "format_version": 22,
+  "unity": "6000.3.27f2",
+  "type_tree_present": false,
+  "object_count": 49,
+  "objects_by_class": {
+   "Shader": 49
+  }
+ }
+}

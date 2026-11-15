@@ -1,0 +1,83 @@
+file,path_id,cls,name
+globalgamemanagers.assets,2,Material,Sprites-Default
+globalgamemanagers.assets,51,Shader,
+globalgamemanagers.assets,52,Shader,
+globalgamemanagers.assets,53,Shader,
+globalgamemanagers.assets,54,Shader,
+globalgamemanagers.assets,55,Shader,
+globalgamemanagers.assets,56,Shader,
+globalgamemanagers.assets,57,Shader,
+globalgamemanagers.assets,58,Shader,
+globalgamemanagers.assets,59,Shader,
+globalgamemanagers.assets,60,Shader,
+globalgamemanagers.assets,61,Shader,
+globalgamemanagers.assets,62,Shader,
+globalgamemanagers.assets,63,Shader,
+globalgamemanagers.assets,64,Shader,
+globalgamemanagers.assets,65,Shader,
+globalgamemanagers.assets,66,Shader,
+globalgamemanagers.assets,67,Shader,
+globalgamemanagers.assets,68,Shader,
+globalgamemanagers.assets,69,Shader,
+globalgamemanagers.assets,70,Shader,
+globalgamemanagers.assets,71,Shader,
+globalgamemanagers.assets,72,Shader,
+globalgamemanagers.assets,73,Shader,
+globalgamemanagers.assets,74,Shader,
+globalgamemanagers.assets,75,Shader,
+globalgamemanagers.assets,76,Shader,
+globalgamemanagers.assets,77,Shader,
+globalgamemanagers.assets,78,Shader,
+globalgamemanagers.assets,79,Shader,
+globalgamemanagers.assets,80,Shader,
+globalgamemanagers.assets,81,Shader,
+globalgamemanagers.assets,82,Shader,
+globalgamemanagers.assets,83,Shader,
+globalgamemanagers.assets,84,Shader,
+globalgamemanagers.assets,85,Shader,
+globalgamemanagers.assets,86,Shader,
+globalgamemanagers.assets,87,Shader,
+globalgamemanagers.assets,88,Shader,
+globalgamemanagers.assets,89,Shader,
+globalgamemanagers.assets,90,Shader,
+globalgamemanagers.assets,91,Shader,
+globalgamemanagers.assets,92,Shader,
+globalgamemanagers.assets,93,Shader,
+globalgamemanagers.assets,94,Shader,
+sharedassets0.assets,2,Material,Font_Thai Material
+sharedassets0.assets,3,Material,fx_glow_common_1
+sharedassets0.assets,4,Material,fx_star_glow
+sharedassets0.assets,5,Material,fx_skill_equip_aura
+sharedassets0.assets,6,Material,fx_title_cloud
+sharedassets0.assets,7,Material,fx_title_flower_big
+sharedassets0.assets,8,Material,fx_title_flower_middle
+sharedassets0.assets,9,Material,fx_title_flower_small
+sharedassets0.assets,10,Material,fx_title_fog
+sharedassets0.assets,11,Material,fx_title_sunray
+sharedassets0.assets,12,Material,DNFForgedBlade-Bold MiddleFont Material
+sharedassets0.assets,13,Material,Font Material
+sharedassets0.assets,14,Material,Font Material
+sharedassets0.assets,15,Material,Font Material
+sharedassets0.assets,16,Material,Font Material
+sharedassets0.assets,17,Material,FallBack_Font_1 Material
+sharedassets0.assets,18,Material,DNFForgedBlade-Bold Material
+sharedassets0.assets,19,Material,FallBack_Font_2 Material
+sharedassets0.assets,68,Shader,
+sharedassets0.assets,69,Shader,
+sharedassets0.assets,70,Shader,
+sharedassets0.assets,71,Shader,
+sharedassets0.assets,72,Shader,
+sharedassets0.assets,73,Shader,
+sharedassets0.assets,74,Shader,
+sharedassets0.assets,75,AnimationClip,MoveNotice_End
+sharedassets0.assets,76,AnimationClip,MoveNotice_Idle
+sharedassets0.assets,77,AnimationClip,MoveNotice_Start
+sharedassets0.assets,78,AnimationClip,UILoading
+sharedassets0.assets,79,AnimationClip,Title_Enter
+sharedassets0.assets,80,AnimationClip,Title_Idle
+sharedassets0.assets,81,AnimatorController,MoveNotice
+sharedassets0.assets,82,AnimatorController,Title
+sharedassets0.assets,83,Font,DNFForgedBlade-Bold
+sharedassets0.assets,84,Font,NotoSansCJKkr-Bold
+sharedassets0.assets,85,Font,NotoSansThai
+sharedassets0.assets,86,Font,NotoSans-Bold

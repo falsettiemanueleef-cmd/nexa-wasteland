@@ -1,0 +1,97 @@
+file,path_id,name,width,height,format,mips,complete_size,stream_file,stream_offset,stream_size
+globalgamemanagers.assets,3,Splash Screen Unity Logo,2048,1024,ASTC_6x6,12,1250704,globalgamemanagers.assets.resS,0,1250704
+globalgamemanagers.assets,4,LDR_LLL1_9,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,1250704,256
+globalgamemanagers.assets,5,Medium01,512,512,Alpha8,1,262144,globalgamemanagers.assets.resS,1250960,262144
+globalgamemanagers.assets,6,LDR_LLL1_23,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,1513104,256
+globalgamemanagers.assets,7,LDR_LLL1_2,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,1513360,256
+globalgamemanagers.assets,8,LDR_LLL1_17,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,1513616,256
+globalgamemanagers.assets,9,LDR_LLL1_31,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,1513872,256
+globalgamemanagers.assets,10,LDR_LLL1_25,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,1514128,256
+globalgamemanagers.assets,11,DebugFont,256,128,ASTC_6x6,1,15136,globalgamemanagers.assets.resS,1514384,15136
+globalgamemanagers.assets,12,LDR_LLL1_4,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,1529520,256
+globalgamemanagers.assets,13,LDR_LLL1_6,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,1529776,256
+globalgamemanagers.assets,14,LDR_LLL1_14,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,1530032,256
+globalgamemanagers.assets,15,LDR_LLL1_15,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,1530288,256
+globalgamemanagers.assets,16,Medium05,512,512,Alpha8,1,262144,globalgamemanagers.assets.resS,1530544,262144
+globalgamemanagers.assets,17,SearchTex,64,16,Alpha8,1,1024,globalgamemanagers.assets.resS,1792688,1024
+globalgamemanagers.assets,18,Large02,512,512,Alpha8,1,262144,globalgamemanagers.assets.resS,1793712,262144
+globalgamemanagers.assets,19,Thin01,512,512,Alpha8,1,262144,globalgamemanagers.assets.resS,2055856,262144
+globalgamemanagers.assets,20,LDR_LLL1_3,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,2318000,256
+globalgamemanagers.assets,21,LDR_LLL1_0,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,2318256,256
+globalgamemanagers.assets,22,LDR_LLL1_30,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,2318512,256
+globalgamemanagers.assets,23,LDR_LLL1_10,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,2318768,256
+globalgamemanagers.assets,24,Medium03,512,512,Alpha8,1,262144,globalgamemanagers.assets.resS,2319024,262144
+globalgamemanagers.assets,25,LDR_LLL1_16,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,2581168,256
+globalgamemanagers.assets,26,LDR_LLL1_24,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,2581424,256
+globalgamemanagers.assets,27,Medium06,512,512,Alpha8,1,262144,globalgamemanagers.assets.resS,2581680,262144
+globalgamemanagers.assets,28,Medium04,512,512,Alpha8,1,262144,globalgamemanagers.assets.resS,2843824,262144
+globalgamemanagers.assets,29,LDR_LLL1_12,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,3105968,256
+globalgamemanagers.assets,30,LDR_LLL1_7,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,3106224,256
+globalgamemanagers.assets,31,LDR_LLL1_27,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,3106480,256
+globalgamemanagers.assets,32,LDR_LLL1_20,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,3106736,256
+globalgamemanagers.assets,33,LDR_LLL1_26,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,3106992,256
+globalgamemanagers.assets,34,AreaTex,160,560,RGB24,1,268800,globalgamemanagers.assets.resS,3107248,268800
+globalgamemanagers.assets,35,LDR_LLL1_18,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,3376048,256
+globalgamemanagers.assets,36,LDR_LLL1_19,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,3376304,256
+globalgamemanagers.assets,37,LDR_LLL1_1,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,3376560,256
+globalgamemanagers.assets,38,LDR_LLL1_13,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,3376816,256
+globalgamemanagers.assets,39,LDR_LLL1_21,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,3377072,256
+globalgamemanagers.assets,40,Thin02,512,512,Alpha8,1,262144,globalgamemanagers.assets.resS,3377328,262144
+globalgamemanagers.assets,41,LDR_LLL1_0,64,64,Alpha8,1,4096,globalgamemanagers.assets.resS,3639472,4096
+globalgamemanagers.assets,42,LDR_LLL1_5,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,3643568,256
+globalgamemanagers.assets,43,LDR_LLL1_8,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,3643824,256
+globalgamemanagers.assets,44,Medium02,512,512,Alpha8,1,262144,globalgamemanagers.assets.resS,3644080,262144
+globalgamemanagers.assets,45,LDR_LLL1_22,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,3906224,256
+globalgamemanagers.assets,46,BayerMatrix,4,4,Alpha8,1,16,globalgamemanagers.assets.resS,3906480,16
+globalgamemanagers.assets,47,LDR_LLL1_29,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,3906496,256
+globalgamemanagers.assets,48,LDR_LLL1_11,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,3906752,256
+globalgamemanagers.assets,49,Large01,512,512,Alpha8,1,262144,globalgamemanagers.assets.resS,3907008,262144
+globalgamemanagers.assets,50,LDR_LLL1_28,16,16,Alpha8,1,256,globalgamemanagers.assets.resS,4169152,256
+sharedassets0.assets,20,DNFForgedBlade-Bold Atlas,2048,4096,Alpha8,1,8388608,,0,0
+sharedassets0.assets,21,sactx-0-4096x4096-ASTC 4x4-UICommonAtlas-026afe6c,4096,4096,ASTC_4x4,1,16777216,sharedassets0.assets.resS,0,16777216
+sharedassets0.assets,22,FallBack_Font_1 Atlas,2048,4096,Alpha8,1,8388608,,0,0
+sharedassets0.assets,23,InputFieldBackground,32,32,RGBA32,6,5460,sharedassets0.assets.resS,16777216,5460
+sharedassets0.assets,24,webview_close,96,96,ASTC_4x4,1,9216,sharedassets0.assets.resS,16782688,9216
+sharedassets0.assets,25,fx_title_flower_middle,32,32,ASTC_4x4,1,1024,sharedassets0.assets.resS,16791904,1024
+sharedassets0.assets,26,fx_title_fog,512,512,ASTC_4x4,1,262144,sharedassets0.assets.resS,16792928,262144
+sharedassets0.assets,27,title_text_002,566,332,ASTC_4x4,1,188576,sharedassets0.assets.resS,17055072,188576
+sharedassets0.assets,28,title_lantern_small,50,169,ASTC_4x4,1,8944,sharedassets0.assets.resS,17243648,8944
+sharedassets0.assets,29,imgTxt_copyright,686,36,ASTC_4x4,1,24768,sharedassets0.assets.resS,17252592,24768
+sharedassets0.assets,30,title_sky,2048,1204,ASTC_4x4,1,2465792,sharedassets0.assets.resS,17277360,2465792
+sharedassets0.assets,31,Font Texture,0,0,RGBA32,1,0,,0,0
+sharedassets0.assets,32,title_trees,2048,1650,ASTC_4x4,1,3383296,sharedassets0.assets.resS,19743152,3383296
+sharedassets0.assets,33,common_bg_1,8,8,ASTC_4x4,1,64,sharedassets0.assets.resS,23126448,64
+sharedassets0.assets,34,title_text_002_subtitle,594,91,ASTC_4x4,1,54832,sharedassets0.assets.resS,23126512,54832
+sharedassets0.assets,35,common_bg_1,8,8,RGB24,1,192,sharedassets0.assets.resS,23181344,192
+sharedassets0.assets,36,Font Texture,0,0,RGBA32,1,0,,0,0
+sharedassets0.assets,37,title_forest,2048,1069,ASTC_4x4,1,2195456,sharedassets0.assets.resS,23181536,2195456
+sharedassets0.assets,38,title_forest_top,2048,1069,ASTC_4x4,1,2195456,sharedassets0.assets.resS,25376992,2195456
+sharedassets0.assets,39,fx_skill_equip_aura,256,256,ASTC_4x4,1,65536,sharedassets0.assets.resS,27572448,65536
+sharedassets0.assets,40,guardian_star_star,1024,1760,ASTC_4x4,1,1802240,sharedassets0.assets.resS,27637984,1802240
+sharedassets0.assets,41,fx_star_glow,64,64,ASTC_4x4,1,4096,sharedassets0.assets.resS,29440224,4096
+sharedassets0.assets,42,title_sky_texture,2048,1204,ASTC_8x8,1,618496,sharedassets0.assets.resS,29444320,618496
+sharedassets0.assets,43,fx_title_sunray,512,512,ASTC_4x4,1,262144,sharedassets0.assets.resS,30062816,262144
+sharedassets0.assets,44,img_chat_bg,42,42,RGBA32,1,7056,sharedassets0.assets.resS,30324960,7056
+sharedassets0.assets,45,title_lantern_large,133,665,ASTC_4x4,1,90848,sharedassets0.assets.resS,30332016,90848
+sharedassets0.assets,46,title_church,1336,1905,ASTC_4x4,1,2549088,sharedassets0.assets.resS,30422864,2549088
+sharedassets0.assets,47,title_text_002_bold,565,338,ASTC_4x4,1,193120,sharedassets0.assets.resS,32971952,193120
+sharedassets0.assets,48,Font Texture,0,0,RGBA32,1,0,,0,0
+sharedassets0.assets,49,fx_glow_common_1,64,64,ASTC_6x6,1,1936,sharedassets0.assets.resS,33165072,1936
+sharedassets0.assets,50,Font Texture,0,0,RGBA32,1,0,,0,0
+sharedassets0.assets,51,fx_title_flower_big,64,64,ASTC_4x4,1,4096,sharedassets0.assets.resS,33167008,4096
+sharedassets0.assets,52,NoiseCaustic03,256,256,ASTC_6x6,1,29584,sharedassets0.assets.resS,33171104,29584
+sharedassets0.assets,53,title_lantern_distance,50,169,ASTC_4x4,1,8944,sharedassets0.assets.resS,33200688,8944
+sharedassets0.assets,54,title_statue,441,925,ASTC_4x4,1,412032,sharedassets0.assets.resS,33209632,412032
+sharedassets0.assets,55,webview_back,96,96,ASTC_4x4,1,9216,sharedassets0.assets.resS,33621664,9216
+sharedassets0.assets,56,title_ground,2048,682,ASTC_4x4,1,1400832,sharedassets0.assets.resS,33630880,1400832
+sharedassets0.assets,57,webview_browser,96,96,ASTC_4x4,1,9216,sharedassets0.assets.resS,35031712,9216
+sharedassets0.assets,58,fx_title_flower_small,32,32,ASTC_4x4,1,1024,sharedassets0.assets.resS,35040928,1024
+sharedassets0.assets,59,FallBack_Font_2 Atlas,512,512,Alpha8,1,262144,,0,0
+sharedassets0.assets,60,NotoSansThai Atlas,512,512,Alpha8,1,262144,sharedassets0.assets.resS,35041952,262144
+sharedassets0.assets,61,sactx-0-1024x512-ASTC 6x6-UILoadingAtlas-4e4b34fe,1024,512,ASTC_6x6,1,235296,sharedassets0.assets.resS,35304096,235296
+sharedassets0.assets,62,sactx-0-4096x4096-ASTC 6x6-UIItemAtlas-ecb22d66,4096,4096,ASTC_6x6,1,7463824,sharedassets0.assets.resS,35539392,7463824
+sharedassets0.assets,63,sactx-0-4096x4096-ASTC 6x6-UISkillAtlas-48c24ecb,4096,4096,ASTC_6x6,1,7463824,sharedassets0.assets.resS,43003216,7463824
+sharedassets0.assets,64,sactx-0-4096x2048-ASTC 6x6-UIEssentialsAtlas-f36ce853,4096,2048,ASTC_6x6,1,3737376,sharedassets0.assets.resS,50467040,3737376
+sharedassets0.assets,65,sactx-2-4096x4096-ASTC 4x4-UICommonAtlas-026afe6c,4096,4096,ASTC_4x4,1,16777216,sharedassets0.assets.resS,54204416,16777216
+sharedassets0.assets,66,sactx-0-4096x2048-ASTC 8x8-UISleepModeAtlas-d9704806,4096,2048,ASTC_8x8,1,2097152,sharedassets0.assets.resS,70981632,2097152
+sharedassets0.assets,67,sactx-1-4096x4096-ASTC 4x4-UICommonAtlas-026afe6c,4096,4096,ASTC_4x4,1,16777216,sharedassets0.assets.resS,73078784,16777216
